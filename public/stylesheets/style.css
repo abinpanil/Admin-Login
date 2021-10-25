@@ -1,0 +1,83 @@
+.button:hover{
+   background-color: #0a54c4 !important;
+    cursor: pointer;
+}
+.table a{
+    text-decoration: none;
+    border-radius: 20px;
+}
+#adduser:ho{
+
+}
+#delete , #add{
+    color: #0d6efd;
+}
+#delete:hover{
+    color: #ffff;
+    background-color: #0d6efd;
+}
+#edit{
+    color: #246d12;
+}
+#edit:hover{
+    color: #ffff;
+    background-color: #246d12;
+}
+#block{
+    color: rgb(153, 20, 20);
+}
+#block:hover{
+    color: #ffff;
+    background-color: rgb(153, 20, 20);
+}
+#add{
+    border: none;
+    border-radius: 40%;
+    background-color: transparent;
+}
+#add:hover{
+    color: #ffff;
+    background-color: #0d6efd;
+}
+.close{
+    color: rgb(153, 20, 20);
+}
+.close:hover{
+    color: #ffff;
+    background-color: rgb(153, 20, 20);
+}
+
+.table input{
+    width: 150px;
+}
+
+
+.reg{
+    font-size: 16px;
+}
+.reg a{
+    text-decoration: none;
+}
+
+#editpopup{
+    display: none;
+    
+}
+
+.popup{
+ 
+    background: rgb(0, 0, 0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-content{
+    background: rgb(223, 219, 219);
+    border-radius: 5px;
+    position: relative;
+
+}

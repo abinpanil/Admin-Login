@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="mt-5 mb-5 text-center">
+                <h1 class="mb-5">Signup</h1>
+            </div>
+            <form action="/signup" method="post">
+                <div class="mb-3 mt-5">
+                  <label for="exampleInputEmail1" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="newname" required>
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="exampleInputEmail1" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name="newusername" required>
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password" name="newpass" required>
+                </div>
+                <div class="butn text-center pt-3">
+                    <button type="submit" class="btn btn-primary px-5">Signup</button>
+                    <h5 class="pt-3 reg">Already have an Account?<a href="/signin"> Login</a></h5>
+                </div>
+              </form>
+        </div>
+    </div>
+</div>
